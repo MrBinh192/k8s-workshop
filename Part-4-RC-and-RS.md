@@ -159,4 +159,4 @@ In this section, you have learned:
 
 The reason why ths ReplicaSet is replacing ReplicationController, is because the latter isn't great for rolling-updates.
 
-For that, K8s introduced `Deployments`, which we will look at in the [next section](https://actfong.github.io/k8s-workshop/Part-5-Deployments).
+For that, K8s introduced `Deployments`, which we will look at in the [next section](https://github.com/MrBinh192/k8s-workshop/Part-5-Deployments).

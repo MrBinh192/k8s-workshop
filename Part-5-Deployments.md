@@ -177,4 +177,4 @@ In this section, uou have learned how to:
 2. Perform a rollback
 3. And how to inspect the revisions of your deployment
 
-Now that your app is up-and-running, the next step is to [scale up](https://actfong.github.io/k8s-workshop/Part-6-Scaling) your application to take on whatever the Internet will throw at you.
+Now that your app is up-and-running, the next step is to [scale up](https://github.com/MrBinh192/k8s-workshop/Part-6-Scaling) your application to take on whatever the Internet will throw at you.

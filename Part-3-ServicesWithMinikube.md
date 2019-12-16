@@ -168,4 +168,4 @@ Because Pods are ephemeral, they should never be accessed directly through their
 
 Until now, we have only targeted one single pod with our Service object.
 
-In the next chapter, you will find out how we can ensure that a number of pod replica's are always running with [ReplicationControllers / ReplicaSets](https://actfong.github.io/k8s-workshop/Part-4-RC-and-RS). And the good news: all these replica's will be targeted by our Service object, automagically!
+In the next chapter, you will find out how we can ensure that a number of pod replica's are always running with [ReplicationControllers / ReplicaSets](https://github.com/MrBinh192/k8s-workshop/Part-4-RC-and-RS). And the good news: all these replica's will be targeted by our Service object, automagically!

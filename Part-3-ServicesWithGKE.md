@@ -17,7 +17,7 @@ A Service of type `NodePort` exposes the Service object on the Node's IP at a sp
 
 If you are running your cluster on the cloud, you could consider the type `LoadBalancer`, which exposes your Service on your cloud provider's load-balancer. However, how the type `LoadBalancer` is implemented varies with each cloud provider.
 
-If you look back at the example we did in [Part 1](https://actfong.github.io/k8s-workshop/Part-1-IntroWithGKE#deploy-our-app), we actually created a service of Type `LoadBalancer`
+If you look back at the example we did in [Part 1](https://github.com/MrBinh192/k8s-workshop/Part-1-IntroWithGKE#deploy-our-app), we actually created a service of Type `LoadBalancer`
 
 <img src="https://github.com/actfong/k8s-workshop/blob/master/images/k8s-service-types.png?raw=true" width="550" height="375"/>
 
@@ -140,4 +140,4 @@ An Ingress forwards (or terminates) incoming requests to services based on these
 
 Until now, we have only targeted one single pod with our Service object.
 
-In the next chapter, you will find out how we can ensure that a number of pod replica's are always running with [ReplicationControllers / ReplicaSets](https://actfong.github.io/k8s-workshop/Part-4-RC-and-RS). And the good news: all these replica's will be targeted by our Service object, automagically!
+In the next chapter, you will find out how we can ensure that a number of pod replica's are always running with [ReplicationControllers / ReplicaSets](https://github.com/MrBinh192/k8s-workshop/Part-4-RC-and-RS). And the good news: all these replica's will be targeted by our Service object, automagically!

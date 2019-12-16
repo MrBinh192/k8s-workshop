@@ -232,4 +232,4 @@ In this section, you have learned:
 4. A Pod is by default only accessible from within the cluster
 
 
-In the next section ([with GKE](https://actfong.github.io/k8s-workshop/Part-3-ServicesWithGKE) or [with Minikube](https://actfong.github.io/k8s-workshop/Part-3-ServicesWithMinikube) ), we will have a look at the `Service` Object, which allows us to access our Pods from within and outside the cluster.
+In the next section ([with GKE](https://github.com/MrBinh192/k8s-workshop/Part-3-ServicesWithGKE) or [with Minikube](https://github.com/MrBinh192/k8s-workshop/Part-3-ServicesWithMinikube) ), we will have a look at the `Service` Object, which allows us to access our Pods from within and outside the cluster.
