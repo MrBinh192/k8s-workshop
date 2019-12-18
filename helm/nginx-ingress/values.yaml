@@ -33,7 +33,7 @@ controller:
   # Optionally change this to ClusterFirstWithHostNet in case you have 'hostNetwork: true'.
   # By default, while using host network, name resolution uses the host's DNS. If you wish nginx-controller
   # to keep resolving names inside the k8s network, use ClusterFirstWithHostNet.
-  dnsPolicy: ClusterFirst
+  dnsPolicy: Default
 
   # Bare-metal considerations via the host network https://kubernetes.github.io/ingress-nginx/deploy/baremetal/#via-the-host-network
   # Ingress status was blank because there is no Service exposing the NGINX Ingress controller in a configuration using the host network, the default --publish-service flag used in standard cloud setups does not apply
@@ -116,7 +116,7 @@ controller:
 
   ## DaemonSet or Deployment
   ##
-  kind: Deployment
+  kind: DaemonSet
 
   # The update strategy to apply to the Deployment or DaemonSet
   ##
@@ -234,7 +234,8 @@ controller:
     ## List of IP addresses at which the controller services are available
     ## Ref: https://kubernetes.io/docs/user-guide/services/#external-ips
     ##
-    externalIPs: []
+    externalIPs:
+    - 10.35.15.52
 
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
@@ -328,7 +329,7 @@ controller:
       type: ClusterIP
 
     patch:
-      enabled: true
+      enabled: false
       image:
         repository: jettech/kube-webhook-certgen
         tag: v1.0.0
@@ -356,8 +357,7 @@ controller:
       ## List of IP addresses at which the stats-exporter service is available
       ## Ref: https://kubernetes.io/docs/user-guide/services/#external-ips
       ##
-      externalIPs: 
-      - 192.168.40.128
+      externalIPs: []
 
       loadBalancerIP: ""
       loadBalancerSourceRanges: []
