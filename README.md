@@ -22,17 +22,17 @@ To follow this lab, you will need these tools:
 
 ## Local development workshop
 
-[Part 1 - Intro to local K8s tools](https://github.com/MrBinh192/k8s-workshop/Part-1-Intro-to-local-k8s-tools)
+[Part 1 - Intro to local K8s tools](https://github.com/MrBinh192/k8s-workshop/blob/master/Part-1-Intro-to-local-k8s-tools.md)
 
-[Part 2 - Pods](https://github.com/MrBinh192/k8s-workshop/Part-2-Pods)
+[Part 2 - Pods](https://github.com/MrBinh192/k8s-workshop/blob/master/Part-2-Pods.md)
 
-[Part 3 - Services (Minikube)](https://github.com/MrBinh192/k8s-workshop/Part-3-ServicesWithMinikube)
+[Part 3 - Services](https://github.com/MrBinh192/k8s-workshop/blob/master/Part-3-Services.md)
 
-[Part 4 - ReplicationControllers / ReplicaSets](https://github.com/MrBinh192/k8s-workshop/Part-4-RC-and-RS)
+[Part 4 - ReplicationControllers / ReplicaSets](https://github.com/MrBinh192/k8s-workshop/blob/master/Part-4-RC-and-RS.md)
 
-[Part 5 - Deployments](https://github.com/MrBinh192/k8s-workshop/Part-5-Deployments)
+[Part 5 - Deployments](https://github.com/MrBinh192/k8s-workshop/blob/master/Part-5-Deployments)
 
-[Part 6 - Scaling your application](https://github.com/MrBinh192/k8s-workshop/Part-6-Scaling)
+[Part 6 - Scaling your application](https://github.com/MrBinh192/k8s-workshop/blob/master/Part-6-Scaling)
 
 ## More materials
 [Awesome-kubernetes - A curated list for awesome Kubernetes sources](https://github.com/ramitsurana/awesome-kubernetes)
