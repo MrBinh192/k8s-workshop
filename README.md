@@ -8,12 +8,12 @@ In this workshop, we are going to:
 - Build a simple application and discover some Docker image build practices
 
 
-## Presequisites
+## Prerequisites
 To follow this lab, you will need these tools:
 - Your favorite terminal emulator
 - [Docker-ce](https://docs.docker.com/v17.12/install/)
 - [kind](https://kind.sigs.k8s.io/docs/user/quick-start)
-- [kubectl](https://kind.sigs.k8s.io/docs/user/quick-start)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - [Helm3](https://helm.sh/docs/intro/install/#from-script)
 - (optional) [kubectx & kubens](https://github.com/ahmetb/kubectx#installation)
 - (optional) [kube-ps1](https://github.com/jonmosco/kube-ps1)
